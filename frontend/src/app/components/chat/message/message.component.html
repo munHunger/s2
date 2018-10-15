@@ -1,0 +1,12 @@
+<div class="message margin-v-m">
+    <div class="timestamp font-detail" [ngClass]="{'recieved': !wasSent(), 'sent': wasSent()}">
+        {{getTimeStamp()}}
+    </div>
+    <br />
+    <div class="content padding-m inner-border rounded-borders" [ngClass]="{'recieved': !wasSent(), 'sent': wasSent()}">
+        <div class="font-white-primary">
+            {{getBody()}}
+        </div>
+    </div>
+    <div style="clear:both"></div>
+</div>

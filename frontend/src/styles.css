@@ -1,1 +1,48 @@
 /* You can add global styles to this file, and also import other style files */
+textarea {
+  border: none;
+  min-height: 150px;
+  padding: 7px;
+  width: 100%;
+  background: #ffffff;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+  display: block;
+}
+
+body {
+  background: #ababab;
+}
+
+.rounded-borders {
+  border-radius: 5px;
+}
+
+.inner-border {
+  box-shadow: inset 0px -4px 0px rgba(0, 0, 0, 0.25);
+}
+
+.card {
+  box-shadow: 0px 2px 2px rgba(0, 0, 0, 0.25);
+  border-radius: 5px 5px 5px 5px;
+}
+
+.font-detail {
+  font-size: 9px;
+  color: rgba(171, 171, 171, 0.5);
+}
+
+.font-white-primary {
+  color: rgba(255, 255, 255, 0.75);
+}
+
+.margin-v-m {
+  margin-top: 15px;
+  margin-bottom: 15px;
+}
+
+.padding-m {
+  padding: 15px;
+}
