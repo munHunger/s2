@@ -29,9 +29,22 @@ body {
   border-radius: 5px 5px 5px 5px;
 }
 
+.font-title {
+  color: #777;
+  font-size: 18px;
+  display: inline-block;
+}
+
+.font-subtitle {
+  color: #555;
+  font-size: 16px;
+  display: inline-block;
+}
+
 .font-detail {
   font-size: 9px;
   color: rgba(171, 171, 171, 0.5);
+  display: inline-block;
 }
 
 .font-white-primary {

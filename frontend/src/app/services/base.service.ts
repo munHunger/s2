@@ -3,7 +3,7 @@ import { Observable } from "rxjs";
 
 export class BaseService {
   protected getBaseUrl(): String {
-    return "http://localhost";
+    return "http://mock";
   }
 
   handleError(error: Response | any) {

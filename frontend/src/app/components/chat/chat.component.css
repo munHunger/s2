@@ -1,3 +1,15 @@
 .chat {
   background: #f1f1f1;
 }
+
+.alias::after {
+  content: ":";
+}
+
+.email::before {
+  content: "<";
+}
+
+.email::after {
+  content: ">";
+}
