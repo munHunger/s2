@@ -1,0 +1,15 @@
+.timestamp {
+  display: block;
+}
+.recieved {
+  float: left;
+}
+.content.recieved {
+  background: #75a5dc;
+}
+.sent {
+  float: right;
+}
+.content.sent {
+  background: #b2b1ff;
+}

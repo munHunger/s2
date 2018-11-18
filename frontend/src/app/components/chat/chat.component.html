@@ -1,0 +1,18 @@
+<div class="chat padding-m card">
+  <div *ngIf="chat">
+    <div class="alias font-title">{{ chat.senderAlias }}</div>
+    <div class="email font-subtitle">{{ chat.senderEmail }}</div>
+
+    <message
+      *ngFor="let message of chat.firstPage.items"
+      [wasSent]="message.sent"
+      [body]="message.body"
+      [timestamp]="message.timestamp"
+    ></message>
+  </div>
+  <!--
+    <message [wasSent]="false" body="A nice little message" [timestamp]="1539626146"></message>
+    <message [wasSent]="true" body="A pretty response" [timestamp]="1539626146"></message>
+  -->
+  <textarea placeholder="Skriv ett meddelande ..." class="input"></textarea>
+</div>

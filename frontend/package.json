@@ -6,6 +6,7 @@
     "start": "ng serve",
     "build": "ng build",
     "test": "ng test",
+    "cypress": "node_modules/cypress/bin/cypress open",
     "lint": "ng lint",
     "e2e": "ng e2e"
   },
